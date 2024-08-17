@@ -1,0 +1,2 @@
+uvicorn main2:app --reload
+streamlit run streamlit_app.py
