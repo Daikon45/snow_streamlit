@@ -21,6 +21,7 @@ class SnowPredictionInput(BaseModel):
     sunshine_duration: float
     max_snow_depth: float
 
+
 # 予測エンドポイントを作成
 @app.post("/predict/")
 async def predict_snow(data: SnowPredictionInput):
